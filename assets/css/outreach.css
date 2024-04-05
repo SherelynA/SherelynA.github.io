@@ -83,8 +83,8 @@ input, select, textarea {
 	}
 
 	body {
-		/*background: #fff;*/
-		background:  url("images/Sherelyn_Alejandro_1935_illustration.gif") no-repeat;
+		background: #fff;
+		/*background:  url("images/Sherelyn_Alejandro_1935_illustration.gif") no-repeat;*/
   		background-size: cover;
 	}
 
