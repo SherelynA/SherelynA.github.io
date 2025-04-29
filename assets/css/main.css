@@ -1945,7 +1945,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		position: relative;
+		position: fixed;
 		overflow: hidden;
 		width: 100%;
 		background: cornflowerblue;
