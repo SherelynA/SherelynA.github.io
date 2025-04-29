@@ -2014,7 +2014,6 @@ input, select, textarea {
 					#main > .panel.intro .pic:before {
 						content: '';
 						position: absolute;
-						background-repeat: no-repeat;
 						top: 0;
 						left: 0;
 						background: url("images/Sherelyn_Alejandro_1935_illustration.gif");
@@ -2027,6 +2026,7 @@ input, select, textarea {
 						position: relative;
 						display: block;
 						position: absolute;
+						background-repeat: no-repeat;
 						top: 0;
 						left: 0;
 						width: 100%;
