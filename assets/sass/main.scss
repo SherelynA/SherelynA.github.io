@@ -149,7 +149,7 @@
 	body, input, textarea, select {
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 300;
-		color: #536db5;
+		color: white;
 		font-size: 20pt;
 		line-height: 1.75em;
 
@@ -655,7 +655,7 @@
 		position: relative;
 		overflow: hidden;
 		width: 100%;
-		background: white;
+		background: cornflowerblue;
 		box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.25);
 		@include vendor('transition', (
 			'min-height 0.5s ease-in-out',
