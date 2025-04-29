@@ -1876,6 +1876,7 @@ input, select, textarea {
 
 	#wrapper {
 		width: 28em;
+		height: 10em;
 		margin: 0 auto;
 		min-height: 100vh;
 		max-width: 100%;
