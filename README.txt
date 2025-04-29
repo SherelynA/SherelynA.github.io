@@ -31,6 +31,3 @@ Credits:
 	Other:
 		jQuery (jquery.com)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
-
-	Brown Dwarf Image:
-	NASA, ESA, CSA, and L. Hustak (STScI)
