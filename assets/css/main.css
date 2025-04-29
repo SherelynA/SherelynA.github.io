@@ -2017,7 +2017,7 @@ input, select, textarea {
 						top: 0;
 						left: 0;
 						background: url("images/1935.jpeg");
-						width: 50%;
+						width: 100%;
 						height: 100%;
 						z-index: 1;
 					}
@@ -2028,7 +2028,7 @@ input, select, textarea {
 						position: absolute;
 						top: 0;
 						left: 0;
-						width: 50%;
+						width: 100%;
 						height: 100%;
 						-moz-object-fit: cover;
 						-webkit-object-fit: cover;
@@ -2037,7 +2037,7 @@ input, select, textarea {
 						-moz-object-position: center;
 						-webkit-object-position: center;
 						-ms-object-position: center;
-						object-position: center;
+						object-position: left;
 					}
 
 					#main > .panel.intro .pic .arrow {
