@@ -1311,6 +1311,7 @@ input, select, textarea {
 		background-repeat:  no-repeat;
 		background-size: cover;
 		background-attachment:local;
+		background-position:center ;
 		overflow-y: scroll
 	}
 
