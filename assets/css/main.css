@@ -2016,7 +2016,7 @@ input, select, textarea {
 						position: absolute;
 						top: 0;
 						left: 0;
-						background: url("images/Sherelyn_Alejandro_1935_illustration.gif");
+						background: url("images/1935.jpeg");
 						width: 100%;
 						height: 100%;
 						z-index: 1;
@@ -2026,7 +2026,6 @@ input, select, textarea {
 						position: relative;
 						display: block;
 						position: absolute;
-						background-repeat: no-repeat;
 						top: 0;
 						left: 0;
 						width: 100%;
