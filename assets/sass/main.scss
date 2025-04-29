@@ -133,7 +133,8 @@
 		//background-image: url('images/overlay.png'), url('images/bg.jpg');
 		background-repeat: no-repeat;
 		background-size: cover;
-		background-attachment: local;
+		background-attachment: scroll;
+		background-position:center ;
 		overflow-y: scroll;
 
 		// Stops initial animations until page loads.
