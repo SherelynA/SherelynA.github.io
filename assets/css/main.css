@@ -2015,9 +2015,9 @@ input, select, textarea {
 						content: '';
 						position: absolute;
 						top: 0;
-						right: 500px;
+						left: 0;
 						background: url("images/1935.jpeg");
-						width: 100%;
+						width: 50%;
 						height: 100%;
 						z-index: 1;
 					}
@@ -2027,8 +2027,8 @@ input, select, textarea {
 						display: block;
 						position: absolute;
 						top: 0;
-						right: 500px;
-						width: 100%;
+						left: 0;
+						width: 50%;
 						height: 100%;
 						-moz-object-fit: cover;
 						-webkit-object-fit: cover;
