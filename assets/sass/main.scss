@@ -134,7 +134,7 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-attachment: local;
-		overflow-y: scroll;
+		overflow-y: visible;
 
 		// Stops initial animations until page loads.
 			&.is-preload {

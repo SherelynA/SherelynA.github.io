@@ -1311,7 +1311,7 @@ input, select, textarea {
 		background-repeat:  no-repeat;
 		background-size: cover;
 		background-attachment: local;
-		overflow-y: scroll;
+		overflow-y: visible;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
