@@ -1779,7 +1779,7 @@ input, select, textarea {
 		#nav a {
 			position: relative;
 			display: inline-block;
-			color: #ffffff;
+			color: #000000;
 			width: 1em;
 			height: 1em;
 			line-height: 0.9em;
@@ -1986,7 +1986,6 @@ input, select, textarea {
 				display: -webkit-flex;
 				display: -ms-flex;
 				display: flex;
-				background: #536db5;
 				-moz-flex-direction: row;
 				-webkit-flex-direction: row;
 				-ms-flex-direction: row;
