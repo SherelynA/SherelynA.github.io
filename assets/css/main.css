@@ -2030,8 +2030,8 @@ input, select, textarea {
 						position: absolute;
 						top: 0;
 						right: 10%;
-						width: 90%;
-						height: 90%;
+						width: 80%;
+						height: 100%;
 						-moz-object-fit: cover;
 						-webkit-object-fit: cover;
 						-ms-object-fit: cover;
