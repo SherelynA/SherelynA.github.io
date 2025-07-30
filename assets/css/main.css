@@ -2197,3 +2197,42 @@ input, select, textarea {
 			}
 
 		}
+
+
+	#music {
+	  position: relative;
+	  background: url('https://file.garden/ZRYtsnIP2EXOR4Kw/Site%20Files/musicplayer.png') top left no-repeat;
+		background-size: auto;
+	  background-size: auto;
+	  background-size: 100% 100%;
+	  overflow: hidden;
+	  height: 50px;
+	  max-width: 305px;
+	  border: 1px solid #000000;
+	}
+	#music iframe {
+	  position: absolute;
+	  top: 0px;
+	  height: 47px;
+	  opacity: 0.00000000000000000000000001;
+	  z-index: 0;
+	  left: 0px;
+	}
+	#music div {
+	  position: absolute;
+	  top: 10px;
+	  left: 55px;
+	  width: 51%;
+	  margin: 0 !important;
+	}
+	#music span {
+	  display: block;
+	  color: #FFFFFF;
+	  font-weight: normal;
+	  text-align: left;
+	  font-size: 12px;
+	  width: 240px;}
+
+
+
+
