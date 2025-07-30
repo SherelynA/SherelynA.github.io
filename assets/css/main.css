@@ -1368,7 +1368,7 @@ input, select, textarea {
 
 	strong, b, h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
-		color: #363636;
+		color: #D3D3D3;
 	}
 
 	h1 {
@@ -1382,8 +1382,9 @@ input, select, textarea {
 	}
 
 	h3, h4, h5, h6 {
-		font-size: 1.25em;
+		font-size: 1.01em;
 		letter-spacing: -0.015em;
+		text-align: center;
 	}
 
 	@media screen and (max-width: 736px) {
