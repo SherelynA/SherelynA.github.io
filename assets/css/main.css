@@ -1307,8 +1307,8 @@ input, select, textarea {
 
 	body {
 		/*background-image: url("images/overlay.png"), url("images/bg.jpg");*/
-		background-image: url("images/PIA02863_-_Jupiter_surface_motion_animation.gif");
-		/*background-image: url("images/koi_fish.gif");*/
+		/*background-image: url("images/PIA02863_-_Jupiter_surface_motion_animation.gif");*/
+		background-image: url("images/koi_fish.gif");
 
 		background-repeat:  no-repeat;
 		background-size: cover;
