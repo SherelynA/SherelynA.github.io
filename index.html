@@ -33,8 +33,7 @@
 							<article id="home" class="panel intro">
 								<header>
 									<h1>Sherelyn Alejandro Merchan</h1>
-									<p>Physics PhD Candidate @ City University of New York</p>
-									<p>Astrophysicist Studying Substellar Atmospheres</p>
+									<p>Physics PhD Candidate @ CUNY Grad Center</p>
 								</header>
 								<a href="#AboutMe" class="jumplink pic">
 									<span class="arrow icon solid fa-chevron-right"><span>About Me</span></span>
@@ -135,13 +134,22 @@
 
 								<div style="margin-top: 4px;margin-bottom: -12px;">
 
-								<div id="music">
-										<iframe allowfullscreen="" src="https://www.youtube.com/embed/MJkr0DWbhTk/?&;amp;;autoplay=1" loading="lazy" width="560" height="315"></iframe>
+								<div id="music" onclick="playMusic(this)" style="cursor: pointer;">
+										<iframe id="musicFrame" allow="autoplay" allowfullscreen="" data-src="https://www.youtube.com/embed/MJkr0DWbhTk?autoplay=1" loading="lazy" width="560" height="315"></iframe>
 									<div>
 										<span class="song">House Of The Rising Sun    -    The Animals</span>
 									</div>
 								</div>
 								</div>
+
+								<script>
+									function playMusic(el) {
+										var frame = document.getElementById('musicFrame');
+										if (!frame.src) {
+											frame.src = frame.getAttribute('data-src');
+										}
+									}
+								</script>
 							</article>
 
 					</div>
