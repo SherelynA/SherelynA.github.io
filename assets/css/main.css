@@ -1308,7 +1308,7 @@ input, select, textarea {
 	body {
 		/*background-image: url("images/overlay.png"), url("images/bg.jpg");*/
 		/*background-image: url("images/PIA02863_-_Jupiter_surface_motion_animation.gif");*/
-		background-image: url("images/koi_fish.gif");
+		background-image: url("images/Jupiter_Great_Red_Spot.gif");
 
 		background-repeat:  no-repeat;
 		background-size: cover;
@@ -1441,6 +1441,24 @@ input, select, textarea {
 	p, ul, ol, dl, table, blockquote, form {
 		margin-bottom: 2em;
 	}
+
+/* Links (body content) */
+
+	#main a:not(.icon):not(.button) {
+		color: #cfe0ff;
+		text-decoration: underline;
+		text-decoration-color: rgba(207, 224, 255, 0.45);
+		text-underline-offset: 0.15em;
+		-moz-transition: color .25s ease-in-out, text-decoration-color .25s ease-in-out;
+		-webkit-transition: color .25s ease-in-out, text-decoration-color .25s ease-in-out;
+		-ms-transition: color .25s ease-in-out, text-decoration-color .25s ease-in-out;
+		transition: color .25s ease-in-out, text-decoration-color .25s ease-in-out;
+	}
+
+		#main a:not(.icon):not(.button):hover {
+			color: #ffffff;
+			text-decoration-color: #ffffff;
+		}
 
 /* Table */
 
@@ -1879,7 +1897,7 @@ input, select, textarea {
 /* Wrapper */
 
 	#wrapper {
-		width: 28em;
+		width: 44em;
 		margin: 0 auto;
 		min-height: 100vh;
 		max-width: 100%;
@@ -2235,6 +2253,32 @@ input, select, textarea {
 	  font-size: 12px;
 	  width: 240px;}
 
+/* Intro panel: image removed, so let the header center fully and float the arrow */
 
+	#main > .panel.intro .pic {
+		width: auto !important;
+		height: auto !important;
+		position: absolute;
+		right: 1.5em;
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+	}
 
+		#main > .panel.intro .pic:before {
+			display: none;
+		}
 
+	#main > .panel.intro header {
+		width: 100% !important;
+	}
+
+	@media screen and (max-width: 980px) {
+
+		#main > .panel.intro .pic {
+			right: 1em;
+		}
+
+	}
